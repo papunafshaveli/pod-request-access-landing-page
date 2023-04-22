@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500;600;700;800;900&family=Epilogue:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@600&display=swap');
+
+body {
+    box-sizing: border-box;
+    width: 375px;
+    height: 667px;
+    margin: auto;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #121725;
+
+
+}
+
+.backgoundimage {
+    background-image: url(./mobile/image-host.jpg);
+    position: absolute;
+    width: 375px;
+    height: 667px;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+}
+
+#logo {
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+.mainh1 {
+    margin-top: 57px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Chivo';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.mainp01 {
+    color: #54E6AF;
+    font-family: 'Chivo';
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.mainp {
+    margin-top: 16px;
+    margin-left: 24px;
+    width: 327px;
+    color: #C2CBE5;
+    font-family: 'Chivo';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+
+
+}
+
+section {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.podcast {
+    max-width: 85px;
+    height: 16px;
+}
+
+.emailsubmition {
+    position: relative;
+}
+
+#email {
+    position: absolute;
+    z-index: 1;
+    margin-top: 48px;
+    margin-left: 24px;
+    width: 327px;
+    height: 46px;
+    background-color: #2C344B;
+    color: #FFFFFF;
+    border-radius: 28px;
+    border: none;
+    font-family: 'Chivo';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+
+}
+
+#submit {
+    position: absolute;
+    z-index: 1;
+    margin-top: 115px;
+    margin-left: 24px;
+    width: 326px;
+    height: 46px;
+    border-radius: 28px;
+    border: none;
+    background-color: #54E6AF;
+    color: #121725;
+    font-family: 'Chivo';
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+#error {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 95px;
+    color: #FB3E3E;
+    font-family: 'Chivo';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    display: none;
+
+}
+
+
+#pattern {
+    display: none;
+}
+
+#success {
+    color: green;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 95px;
+    display: none;
+}
+
+#ampty {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 95px;
+    color: #FB3E3E;
+    font-family: 'Chivo';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+
+    body {
+        box-sizing: border-box;
+        width: 768px;
+        height: 1024px;
+        margin: auto;
+        overflow-x: hidden;
+        position: relative;
+        background-color: #121725;
+
+
+    }
+
+    .backgoundimage {
+        z-index: -1;
+        margin-left: 280px;
+        background-image: url(./tablet/image-host.jpg);
+        position: absolute;
+        width: 491px;
+        height: 767px;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+    #logo {
+        margin-top: 50px;
+        margin-left: 39px;
+    }
+
+    main {
+        position: relative;
+        margin-top: 152px;
+        margin-left: 39px;
+        width: 635px;
+        height: 509px;
+        background-color: #121725;
+    }
+
+    .mainh1 {
+        position: absolute;
+        margin-top: 93px;
+        color: #FFFFFF;
+        font-family: 'Chivo';
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: 0px;
+        text-align: left;
+
+
+    }
+
+    .mainp01 {
+        color: #54E6AF;
+        font-family: 'Chivo';
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: 0px;
+        text-align: left;
+
+
+    }
+
+    .mainp {
+        position: absolute;
+        margin-top: 236px;
+        margin-left: 0;
+        width: 445px;
+        color: #C2CBE5;
+        font-family: 'Chivo';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+
+
+
+    }
+
+    section {
+        position: absolute;
+        margin-top: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+
+    }
+
+    .podcast {
+        max-width: 127px;
+        height: 28px;
+    }
+
+
+    .emailsubmition {
+        position: relative;
+    }
+
+    #email {
+        position: absolute;
+        z-index: 1;
+        margin-top: 370px;
+        margin-left: 0px;
+        width: 427px;
+        height: 56px;
+        background-color: #2C344B;
+        color: #FFFFFF;
+        border-radius: 28px;
+        border: none;
+        font-family: 'Chivo';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+
+    #submit {
+        position: absolute;
+        z-index: 1;
+        margin-top: 370px;
+        margin-left: 270px;
+        width: 162px;
+        height: 56px;
+        border-radius: 28px;
+        border: none;
+        background-color: #54E6AF;
+        color: #121725;
+        font-family: 'Chivo';
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    #error {
+        position: absolute;
+        margin-top: 450px;
+        margin-left: 32px;
+        color: #FB3E3E;
+        font-family: 'Chivo';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0px;
+        text-align: left;
+        display: none;
+
+    }
+
+    #pattern {
+        display: block;
+        margin-top: 150px;
+        margin-left: 30px;
+    }
+
+    #success {
+        color: green;
+        position: absolute;
+        margin-top: 450px;
+        margin-left: 32px;
+        display: none;
+    }
+
+    #ampty {
+        position: absolute;
+        margin-top: 450px;
+        margin-left: 32px;
+        color: #FB3E3E;
+        font-family: 'Chivo';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0px;
+        text-align: left;
+        display: none;
+    }
+
+    @media screen and (min-width:1440px) {
+
+        body {
+            box-sizing: border-box;
+            width: 1440px;
+            height: 900px;
+            margin: auto;
+            overflow-x: hidden;
+            position: relative;
+            background-color: #121725;
+
+
+        }
+
+        .backgoundimage {
+            z-index: -1;
+            margin-top: 130px;
+            margin-left: 552px;
+            background-image: url(./desktop/image-host.jpg);
+            position: absolute;
+            width: 888px;
+            height: 640px;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+
+        #logo {
+            margin-top: 102px;
+            margin-left: 165px;
+        }
+
+        main {
+            position: relative;
+            margin-top: 113px;
+            margin-left: 165px;
+            width: 723px;
+            height: 509px;
+            background-color: #121725;
+        }
+
+        .mainh1 {
+            position: absolute;
+            margin-top: 88px;
+            color: #FFFFFF;
+            font-family: 'Chivo';
+            font-size: 52px;
+            font-weight: 400;
+            line-height: 62px;
+            letter-spacing: 0px;
+            text-align: left;
+
+
+
+        }
+
+        .mainp01 {
+            color: #54E6AF;
+            font-family: 'Chivo';
+            font-size: 52px;
+            font-weight: 400;
+            line-height: 62px;
+            letter-spacing: 0px;
+            text-align: left;
+
+
+
+        }
+
+        .mainp {
+            position: absolute;
+            margin-top: 236px;
+            margin-left: 0;
+            width: 445px;
+            color: #C2CBE5;
+            font-family: 'Chivo';
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0px;
+            text-align: left;
+
+
+
+        }
+
+        section {
+            position: absolute;
+            margin-top: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 40px;
+
+        }
+
+        .podcast {
+            max-width: 127px;
+            height: 28px;
+        }
+
+
+        .emailsubmition {
+            position: relative;
+        }
+
+        #email {
+            position: absolute;
+            z-index: 1;
+            margin-top: 370px;
+            margin-left: 0px;
+            width: 427px;
+            height: 56px;
+            background-color: #2C344B;
+            color: #FFFFFF;
+            border-radius: 28px;
+            border: none;
+            font-family: 'Chivo';
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0px;
+            text-align: left;
+
+        }
+
+        #submit {
+            position: absolute;
+            z-index: 1;
+            margin-top: 370px;
+            margin-left: 270px;
+            width: 162px;
+            height: 56px;
+            border-radius: 28px;
+            border: none;
+            background-color: #54E6AF;
+            color: #121725;
+            font-family: 'Chivo';
+            font-size: 14px;
+            font-weight: 800;
+            line-height: 28px;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+
+        #error {
+            position: absolute;
+            margin-top: 450px;
+            margin-left: 32px;
+            color: #FB3E3E;
+            font-family: 'Chivo';
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 0px;
+            text-align: left;
+            display: none;
+
+        }
+
+        #pattern {
+            display: block;
+            position: absolute;
+            margin-top: -65px;
+            margin-left: 1205px;
+        }
+
+        #success {
+            color: green;
+            position: absolute;
+            margin-top: 450px;
+            margin-left: 32px;
+            display: none;
+        }
+
+        #ampty {
+            position: absolute;
+            margin-top: 450px;
+            margin-left: 32px;
+            color: #FB3E3E;
+            font-family: 'Chivo';
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 0px;
+            text-align: left;
+            display: none;
+        }
+    }
+}
